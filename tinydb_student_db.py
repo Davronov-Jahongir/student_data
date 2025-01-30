@@ -4,23 +4,23 @@ db = TinyDB('table.json')
 
 student_data = [{
     "id": 101,
-    "name": "John Doe",
-    "age": 16,
+    "name": "Fridman Stefan",
+    "age": 17,
     "gender": "Male",
-    "contact": "123-456-7890",
+    "contact": "+998(99)172-56-57",
     "grade_level": "Grade 10",
     "subjects": {
-        "math": 85,
-        "science": 90,
-        "english": 88
+        "math": 99,
+        "science": 99,
+        "english": 29
     },
     "attendance": 92.5,
-    "activities": ["Basketball", "Debate Club"],
+    "activities": ["ValletBall"],
     "address": {
-        "street": "123 Main St",
-        "city": "Springfield",
+        "street": "Bagdad 26 St",
+        "city": "Samarkand",
         "state": "IL",
-        "zip_code": "62704"
+        "zip_code": "	140100"
     }
 }]
 db.insert_multiple(student_data)
